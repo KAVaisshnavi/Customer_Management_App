@@ -13,6 +13,7 @@ db.sequelize = sequelize;
 
 db.Customer = require('./Customer')(sequelize, DataTypes);
 db.Address = require('./Address')(sequelize, DataTypes);
+db.User = require('./User')(sequelize, DataTypes);
 
 // Relations
 db.Customer.hasMany(db.Address, { foreignKey: 'customerId', onDelete: 'CASCADE' });

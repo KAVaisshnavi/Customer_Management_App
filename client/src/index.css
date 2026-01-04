@@ -208,3 +208,66 @@ h3 {
 .text-secondary {
   color: var(--text-secondary);
 }
+
+/* Auth Page Styles */
+.auth-wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+  padding: 1rem;
+}
+
+.auth-container {
+  background: var(--surface);
+  padding: 2.5rem;
+  border-radius: var(--radius);
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  width: 100%;
+  max-width: 400px;
+  animation: slideUp 0.3s ease-out;
+}
+
+.auth-container h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--text);
+  font-size: 1.75rem;
+}
+
+.auth-container .form-group {
+  margin-bottom: 1.5rem;
+}
+
+.auth-container p {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+}
+
+.auth-container a {
+  color: var(--primary);
+  font-weight: 500;
+}
+
+.auth-container a:hover {
+  text-decoration: underline;
+}
+
+.w-full {
+  width: 100%;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

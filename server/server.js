@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const path = require('path');
 const cors = require('cors');
@@ -5,6 +6,8 @@ const bodyParser = require('body-parser');
 const db = require('./models');
 const customerRoutes = require('./routes/customerRoutes');
 const addressRoutes = require('./routes/addressRoutes');
+const authRoutes = require('./routes/authRoutes');
+const authMiddleware = require('./middleware/authMiddleware');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -13,8 +16,9 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // Routes
-app.use('/api/customers', customerRoutes);
-app.use('/api/addresses', addressRoutes);
+app.use('/api/auth', authRoutes);
+app.use('/api/customers', authMiddleware, customerRoutes);
+app.use('/api/addresses', authMiddleware, addressRoutes);
 
 // Serve static files from the React app
 app.use(express.static(path.join(__dirname, '../client/dist')));
