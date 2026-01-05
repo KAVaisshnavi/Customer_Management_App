@@ -58,7 +58,19 @@ A full-stack application to manage customers and their addresses. Built with Rea
    The app will run on `http://localhost:5173` (typically).
 
 ## Screenshots
-*(Add screenshots here after running the application)*
+<img width="1970" height="1494" alt="Screenshot 2026-01-05 131551" src="https://github.com/user-attachments/assets/6ee69ba6-3d51-490e-8d91-b2a6f24645fa" />
+<img width="1806" height="1517" alt="Screenshot 2026-01-05 131610" src="https://github.com/user-attachments/assets/9a848869-39d3-4102-b009-8ee5114e4b44" />
+
+<img width="1799" height="1411" alt="Screenshot 2026-01-05 131635" src="https://github.com/user-attachments/assets/6f997b7b-73a0-44a6-8e43-f3220178d47e" />
+<img width="1777" height="1492" alt="Screenshot 2026-01-05 131701" src="https://github.com/user-attachments/assets/1c285faf-096a-40da-b945-20f1d07c9c1c" />
+<img width="1598" height="1459" alt="Screenshot 2026-01-05 131818" src="https://github.com/user-attachments/assets/01ffbf22-39b1-42a4-9521-dc1d290ef3f2" />
+<img width="1563" height="1484" alt="Screenshot 2026-01-05 131832" src="https://github.com/user-attachments/assets/2cd85d0d-a67d-4915-a51d-20282023120e" />
+<img width="1568" height="753" alt="Screenshot 2026-01-05 131852" src="https://github.com/user-attachments/assets/7cf88f4f-3dc1-4131-8399-81b03c3ab642" />
+<img width="1574" height="1161" alt="Screenshot 2026-01-05 131940" src="https://github.com/user-attachments/assets/deb2e8a8-80f1-46c6-98eb-fbe5dc531c93" />
+<img width="1549" height="1123" alt="Screenshot 2026-01-05 132029" src="https://github.com/user-attachments/assets/adac0863-12ed-4ebe-9b35-ba49d4db0f68" />
+
+<img width="1602" height="951" alt="image" src="https://github.com/user-attachments/assets/080d26bd-84f6-4f7f-9a70-aab8f407778c" />
+
 
 ## Deployment
 
