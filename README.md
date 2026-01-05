@@ -83,18 +83,7 @@ This application is configured to be deployed as a monolithic application where 
     npm install
     npm run build
     ```
-2.  **Database**: Note that SQLite is a file-based database. On ephemeral hosting (like Render Free Tier, Vercel, Heroku), **data will be lost on restart**.
-
-### Deploy to Render (Example)
-1.  Push this repository to GitHub.
-2.  Create a new **Web Service** on Render.
-3.  Connect your GitHub repository.
-4.  **Build Command**: `cd client && npm install && npm run build && cd ../server && npm install`
-5.  **Start Command**: `cd server && npm start`
-6.  **Environment Variables**: Add any needed (e.g., `PORT` is handled automatically, but if you have secrets, add them).
-
-### Deploy to Vercel (Backend may require Serverless functions adaption)
-*Note: This specific setup is optimized for a continuously running Node server. For Vercel, you often deploy the `client` as a static site and `server` as serverless functions, which requires a different configuration (e.g., specific `vercel.json`).*
+2.  **Database**: SQLite is a file-based database. On ephemeral hosting (Render Free Tier), **data will be lost on restart**.
 
 ### Universal/Manual Deployment
 1.  Run `npm run build` in `client/`.
